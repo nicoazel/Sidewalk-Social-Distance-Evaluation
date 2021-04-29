@@ -17,9 +17,9 @@
 -----------
 # 1. Workflow Overview
 ### Assumptions
-This tool/workflow is developed for the evaluation of specific sidewalks for the purpose of social distancing interventions. End Users are interested in several blocks at a time and these tools support design development.
+This tool/workflow is developed for the evaluation of specific sidewalks in support of social distancing interventions. End Users are interested in several blocks at a time and these tools support design development.
 ### Analysis
-The analysis focuses on questions of social distancing on sidewalks with the understanding that there is generally low covid-19 transmission risk outdoors, but risk rises when individuals spend time in close proximity. In the context of the city sidewalk there are two conditions that are likely to increase risk, areas where there is not sufficient space to spread out, and busy areas with greater pedestrian traffic or stationary occupants of the sidewalk.
+The analysis focuses on questions of social distancing on sidewalks with the understanding that there is generally low covid-19 transmission risk outdoors, but risk rises when individuals spend time in close proximity. In the context of the city sidewalk there are two conditions that are likely to increase risk, areas where there is not sufficient space to spread out, and busy areas with greater pedestrian traffic or zones that gather stationary occupants.
 
 
 <center><a href="https://imgur.com/enYw1Or"><img src="https://i.imgur.com/enYw1Or.jpg" title="source: imgur.com" width="400"/></a></center>
@@ -115,3 +115,12 @@ This component extracts profile lines for the sidewalk width corresponding with 
 
 ### Code Examples
 * [Polygon Center in Grasshopper](https://discourse.mcneel.com/t/extract-centreline-of-polylines/85133/22)
+
+
+-----------
+-----------
+
+# 4. Reflection and Conclusions
+Though developed as a proofs of concept, this workflow has the potent to provide usable insights with the addition of better informed weighting thresholds for covid-19 risk. All the risk weighting thresholds are currently placeholder for demonstration of the scripts functionality. In developing the components to the custom plugin, the Polygon Centerline and Visualize Analysis components have great potential for re-use in other applications. These are general use components that are particularly well suited for efficient sidewalk analysis but have the flexibility to work in any context that is either looking for a polygon centerline or to color a mesh based on spatial weighting. The later of which is quite common in spatial analysis. One significant value of this workflow is this ability to design the weighting system based on simple points, making it very adaptable and customizable.
+
+As a larger workflow, the setup script currently looses efficacy by requiring the cropping of sidewalk data in gis prior to import. This cropping can be done in grasshopper but is time intensive. If sidewalk files were pre-processed to match the boundaries of the cities' rhino model divisions, this extra clipping step could be eliminated completely, making the workflow more accessible to none GIS users. Looking forward, if this work where to continue, I think next steps would be more robust integration of both land use and sidewalk width into a single index, and also incorporate urbano.io activity routing to influence sidewalk use intensity over time. If urbano where to be paired with Google Places API data or more robust datasets like StreetLight of SafeGraph, it would be possible to deliver a high resolution estimate of sidewalk use intensity.
