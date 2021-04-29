@@ -48,7 +48,7 @@ The following describes the workflow steps. Note that the workflow makes use of 
   This script helps export a shp file for use in clipping down external gis data to the study site of focus, as well as import and bake city sidewalk and land use data. This has already been run in the demo, but you can check out the process and an additional [urbano.io](https://www.urbano.io/) route intensity model.
 
 ### c) Run __2_SocialDistance_Sidewalk_Analysis.gh
-  This file contains an example of how to use the sidewalk analysis plugin in two examples. Example One classifies sidewalks for social distancing risk based on width and Example two land use data to estimate use intensity.
+  This file contains an example of how to use the sidewalk analysis plugin in two examples. Example One classifies sidewalks for social distancing risk based on width and Example two uses land use data to estimate activity intensity.
 
 ![Interface Window](https://i.imgur.com/HoQc9kk.jpg)
 
