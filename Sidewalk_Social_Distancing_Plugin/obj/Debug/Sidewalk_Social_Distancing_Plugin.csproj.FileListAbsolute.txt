@@ -1,0 +1,8 @@
+D:\_11_Git\KPF\Sidewalk-Social-Distance-Evaluation\Sidewalk_Social_Distancing_Plugin\bin\Sidewalk_Social_Distancing_Plugin.dll
+D:\_11_Git\KPF\Sidewalk-Social-Distance-Evaluation\Sidewalk_Social_Distancing_Plugin\bin\Sidewalk_Social_Distancing_Plugin.pdb
+D:\_11_Git\KPF\Sidewalk-Social-Distance-Evaluation\Sidewalk_Social_Distancing_Plugin\obj\Debug\Sidewalk_Social_Distancing_Plugin.csprojAssemblyReference.cache
+D:\_11_Git\KPF\Sidewalk-Social-Distance-Evaluation\Sidewalk_Social_Distancing_Plugin\obj\Debug\Sidewalk_Social_Distancing_Plugin.Properties.Resources.resources
+D:\_11_Git\KPF\Sidewalk-Social-Distance-Evaluation\Sidewalk_Social_Distancing_Plugin\obj\Debug\Sidewalk_Social_Distancing_Plugin.csproj.GenerateResource.cache
+D:\_11_Git\KPF\Sidewalk-Social-Distance-Evaluation\Sidewalk_Social_Distancing_Plugin\obj\Debug\Sidewalk_Social_Distancing_Plugin.csproj.CoreCompileInputs.cache
+D:\_11_Git\KPF\Sidewalk-Social-Distance-Evaluation\Sidewalk_Social_Distancing_Plugin\obj\Debug\Sidewalk_Social_Distancing_Plugin.dll
+D:\_11_Git\KPF\Sidewalk-Social-Distance-Evaluation\Sidewalk_Social_Distancing_Plugin\obj\Debug\Sidewalk_Social_Distancing_Plugin.pdb
