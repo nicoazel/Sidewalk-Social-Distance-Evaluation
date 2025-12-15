@@ -1,3 +1,9 @@
+The following is in responce to a interview test posed by KPF Urban Interface. 
+
+**Make a grasshopper plugin for analysing sidewalk socail distancing in 5 days.** 
+
+
+
 # Sidewalk Social Distance Evaluation
  A grasshopper workflow for evaluating social distancing on sidewalks using GIS Data and Grasshopper.
 
